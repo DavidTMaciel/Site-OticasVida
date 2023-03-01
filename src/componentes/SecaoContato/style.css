@@ -1,0 +1,32 @@
+.secao-contato{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+.container-contato{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+}
+.card-menores{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+.card-menores img{
+    width: 18px;
+}
+.card-menores span{
+    font-size: 14px;
+    margin-left: 10px;
+}

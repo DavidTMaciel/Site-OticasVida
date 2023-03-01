@@ -1,0 +1,50 @@
+.secao-produtos{
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+}
+.secao-card{
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.box-card{
+    background-color: #f6f6f6;
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-card h3{
+    margin: 0;
+    font-size: 32px;
+
+}
+.secao-card img{
+    width: 80%;
+    max-height: 150px;
+    padding: 30px 0;
+    object-fit: contain;
+}
+.box-card p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.secao-card ul{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.secao-card li{
+    margin: 5px;
+    text-align: left;
+}

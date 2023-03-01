@@ -1,0 +1,27 @@
+header{
+    padding: 10px 15px;
+
+}
+.limitar-secao{
+    max-width: 1024px;
+    margin: 0px auto;   
+       
+
+}
+header a{
+    padding: 5px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    
+}
+header img{
+    width: 150px;
+}
+header div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}

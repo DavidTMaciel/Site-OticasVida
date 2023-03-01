@@ -1,0 +1,55 @@
+.secao-sobre{
+    background-color: #f8f7ff;
+    padding: 100px 20px;
+    text-align: center;
+}
+.secao-sobre p{
+    line-height: 32px;  
+}
+.car-secao-sobre{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.car-secao-sobre img, .card{
+    width: 50%;
+    max-width: 300px;
+    border: 1px solid #a2adad;
+
+}
+.car-secao-sobre img{
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px;
+    background-color: #fff;
+
+}
+.card h3{
+    font-size: 32px;
+    font-family: 'Anybody cursive',;
+    line-height: 42px;
+    letter-spacing: 5px;
+
+}
+.card p{
+    font-size: 22px;
+    color: #4a4a4a;
+}
+@media  (min-width: 940px) {
+    .car-secao-sobre{
+        display: flex;
+        max-width: 80%;
+        justify-content: center;
+        padding-left: calc(20%);
+    }
+
+}
+
